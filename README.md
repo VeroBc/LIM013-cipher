@@ -145,19 +145,45 @@ La interfaz debe permitir al usuario:
 
 Debe contener lo siguiente:
 
-* Un título con el nombre de tu proyecto.
+* Aplicación para cifrado César llamado SecureTxT.
+
 * Explicar cómo descargar, instalar y ejecutar la aplicación
-  así como una introducción.
+  así como una introducción. (preguntar)
+
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
-* La imagen final de tu proyecto.
+
+* La imagen final de tu proyecto: (preguntar)
+
+
+
+
+
 * Investigación UX:
-  1. Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto.
-  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
-    usuarios.
-  3. Luego colocarás la foto de tu primer prototipo en papel.
+
+  1. Los usuarios requieren cifrado de mensajería por seguridad, considerando
+  que pertenecen a una organización de derechos humanos en una zona de conflicto.
+  2. Utilizando esta herramienta los usuarios protegen sus mensajes y las estrategias
+  que forman parte su trabajo en la protección de los derechos humanos.
+  3. Foto del primer prototipo en papel:
+
+
+
+  
+
+
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-  5. Imagen del prototipo final.
+      Feedback:
+      - Ofrecer la posibilidad que el cifrado se vaya generando de manera automatica
+      - Ofrecer la posibilidad de que este se muestre en una sola pagina
+      - Ofrecer la posibilidad que se pueda añadir otros tipos de cifrado o descifrado
+      - Ofrecer la posibilidad que sea mas flexibe en el tipo de alfabeto, espacios, mayusculas,etc.
+
+  5. Imagen del prototipo final:
+
+
+
+
+
 
 ##### `src/index.html` 
 
