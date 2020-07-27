@@ -1,9 +1,11 @@
-  const limite_inferior = "A".charCodeAt();
-  const limite_superior = "Z".charCodeAt();
+const limite_inferior = "A".charCodeAt();
+const limite_superior = "Z".charCodeAt();
+  
 
-const cipher = (texto_para_cifrar) => {
+const cipher = (texto_para_cifrar, offset) => {
 
-  let desplazamiento = 4;
+  let desplazamiento = offset;
+  
   const largo = texto_para_cifrar.length;
   
   let resultado = "";
@@ -23,6 +25,7 @@ const cipher = (texto_para_cifrar) => {
 }
 
 export default cipher;
+
 
 
 // const cipher = {

@@ -1,21 +1,18 @@
-
 h1 {
     color: blanchedalmond;
     font-family: Geneva, Tahoma, Verdana, sans-serif; 
-    font-size: 50px;
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 700; 
-    line-height: 20px;
-   
-    
+    font-size:70px;
+    font-weight: 550; 
+     
 }
 
-h2 {
+p {
     color: blanchedalmond;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    margin: 10px;   
+    font-size:35px;
+    margin: 10px;
+    text-shadow:0px 6px 11px  rgb(4, 186, 243);
+    line-height: 50px;
 }
 
 label {
@@ -34,18 +31,17 @@ body {
 }
 
 .bloque {
-    display: flex;
-    margin: 20px;
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .boton {
     display: flex;
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -56,17 +52,30 @@ body {
     display: none;
 }
 
-.button {
-    background-color: rgba(0, 0, 0, 0);
-    border: none;
-    color: rgb(228, 231, 241);
-    display: inline-block;
-    font-size: 30px;
-    cursor: context-menu;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;   
-       
+.opciones {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: rgb(228, 231, 241);
+  display: inline-block;
+  font-size: 33px;
+  cursor: context-menu;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 90px 30px 80px 30px;
+  padding: 10px 40px 10px 40px;
+  font-weight: 550;  
+
 }
 
+.fin {
+  background-color:rgb(234, 219, 219, 0.3);
+  border: none;
+  color:rgb(190, 198, 224);
+  display: inline-block;
+  font-size: 20px;
+  cursor: context-menu;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
 
 * {
     box-sizing: border-box;
@@ -74,24 +83,38 @@ body {
 
   textarea {
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 1px solid  #adaec5;
+    border-radius: 5px;
     resize: vertical;
+    padding: 10px;
+    line-height: 1.5;
+    box-shadow: 1px 1px 1px  rgb(127, 127, 156);
   }
 
-  .container {
+
+  input {
+    border: 1px solid #adaec5;
     border-radius: 5px;
-    background-color: #f2f2f2;
+    resize: vertical;
+    padding: 3px 10px;
+    line-height: 1.5;
+    box-shadow: 1px 1px 1px rgb(127, 127, 156);
+  }
+
+
+   .container {
+    border-radius: 5px;
+    background-color:rgba(219, 217, 217, 0.9);
     padding: 8px;
   }
 
   .title {
     float: left;
+    padding: 0px 4px 3px 4px;
   }
   
   .box {
-    float: left;
+    float: top;
     width: 100%;
     margin-top: 5px;
     
@@ -101,41 +124,14 @@ body {
     content: "";
     display: table;
     clear: both;
+    align-items: center;
   }
 
-  textarea {
-    padding: 10px;
-    line-height: 1.5;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 1px #999;
-}
+  .row {
+    margin: 5px;
+    padding: 4px 0px 8px 0px;
+  }
+
+ 
 
 
-.styled1 {
-    border: 0;
-    line-height: 2;
-    padding: 0 20px;
-    font-size: 30px;
-    font-style: italic;
-    font-weight: bolder;
-    text-align: center;
-    color: rgb(47, 52, 128);
-    text-shadow: 4px 4px 4px rgb(177, 177, 216);
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.styled2 {
-    border: 0;
-    line-height: 2;
-    padding: 0 20px;
-    font-size: 30px;
-    font-style: italic;
-    font-weight: bolder;
-    text-align: center;
-    color: rgb(154, 154, 156);
-    text-shadow: 4px 4px 4px rgb(177, 177, 216);
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0);
-}

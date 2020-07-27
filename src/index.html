@@ -12,54 +12,47 @@
       
       <h1>SecureTXT</h1>
       
-      <h2>asegura tus mensajes en las redes</h2>
+      <p>asegura tus mensajes en las redes</p>
       
       <table class="bloque boton">
         <tr>
           <td>
-          <button onclick="getCipher()" id="getCipherButton" class="button" >Cifrar</button>
+          <button id="getCipherButton" class="opciones">Cifrar</button>
           </td>
           <td>
-          <button onclick="getDecipher()" id="getDecipherButton" class="button" >Descifrar</button>
+          <button id="getDecipherButton" class="opciones">Descifrar</button>
           </td>
         </tr>
       </table>
    
     </div>  
     
-    
-
+  
     <div class="bloque hide" id="cipher">
 
-      <h2>Cifrado César</h2> 
+      <p>Cifrado César</p> 
             
         <div class="container">  
             
           <div class="row">
               
             <div class="title">  
-                <label for="title">Texto (hasta 800 caracteres)</label>
+              <label for="title">Texto a cifrar</label> 
             </div>
               
             <div class="box">
-                <textarea id="box1" name="box1" style="height:150px" required minlength="1" maxlength="800" cols="50" ></textarea>
+              <textarea id="box1" style="height:150px" required minlength="1" maxlength="500" rows="9" cols="70"></textarea>
             </div>
 
           </div>          
         
           <div class="row">
-              <input type="button" onclick="decrementValueCipher()" id="decrementValueButton" value="-" />
-              <input type="text" id="numbercipher" value="15"/>
-              <input type="button" onclick="incrementValueCipher()" id="incrementValueButton" value="+" />
+              <input type="button" id="decrementValueButton" value="-" />
+              <input type="number" name="" id="numberCipher" value="15" min="1">
+              <input type="button" id="incrementValueButton" value="+" />
           </div> 
-
-          <div class="row">
-       
-            <button onclick="textToCipher()" class="styled1" type="button">Cifrar</button>
-            <button class="styled2" type="button">Descifrar</button>          
-       
-          </div>  
-
+         
+            
           <div class="row">
               
             <div class="title">  
@@ -67,19 +60,19 @@
             </div>
               
             <div class="box">
-                <textarea id="box2" name="box2" style="height:150px" required minlength="1" maxlength="800" cols="50" ></textarea>
+              <textarea id="box2" style="height:150px" required minlength="1" maxlength="500" rows="9" cols="70"></textarea>
             </div>
 
           </div>    
          
         </div>
 
-        <div class="row"> 
+        <div> 
         
           <table class="bloque boton">
               <tr>
                 <td>
-                <button onclick="endCipher()" id="endCipherButton">Inicio</button>
+                <button id="endCipherButton" class="fin">X</button>
               </td>
               </tr>
             </table>
@@ -89,46 +82,39 @@
     </div>
 
 
-
     <div class="bloque hide" id="decipher">
 
-      <h2>Cifrado César</h2> 
+      <p>Decifrado César</p> 
             
         <div class="container">  
             
           <div class="row">
               
             <div class="title">  
-                <label for="title">Texto cifrado (hasta 800 caracteres)</label>
+                <label for="title">Texto a descifrar</label>
             </div>
               
             <div class="box">
-                <textarea id="box1" name="box1" style="height:150px" required minlength="1" maxlength="800" cols="50" ></textarea>
+                <textarea id="box3" name="box3" style="height:150px" required minlength="1" maxlength="500" rows="9" cols="70"></textarea>
             </div>
 
           </div>          
         
           <div class="row">
-            <input type="button" onclick="decrementValueDecipher()" id="decrementValueButton2" value="-" />
-            <input type="text" id="numberdecipher" value="15"/>
-            <input type="button" onclick="incrementValueDecipher()" id="incrementValueButton2" value="+" />
+            <input type="button" id="decrementValueButton2" value="-" />
+            <input type="number" id="numberDecipher" value="15"/>
+            <input type="button" id="incrementValueButton2" value="+" />
           </div> 
-
-          <div class="row">
-        
-            <button class="styled1" type="button">Cifrar</button>
-            <button class="styled2" type="button">Descifrar</button>          
-        
-          </div> 
+       
 
           <div class="row">
               
             <div class="title">  
-                <label for="title2">Texto</label>
+                <label for="title2">Texto descifrado</label>
             </div>
               
             <div class="box">
-                <textarea id="box2" name="box2" style="height:150px" required minlength="1" maxlength="800" cols="50" ></textarea>
+                <textarea id="box4" name="box4" style="height:150px" required minlength="1" maxlength="500" rows="9" cols="70"></textarea>
             </div>
 
           </div>    
@@ -139,7 +125,7 @@
           <table class="bloque boton">
             <tr>
               <td>
-              <button onclick="endDecipher()" id="endDecipherButton" >Inicio</button>
+              <button id="endDecipherButton" class="fin">X</button>
               </td>
               
             </tr>

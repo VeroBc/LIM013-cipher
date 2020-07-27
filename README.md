@@ -1,143 +1,61 @@
-# Cifrado César
+# Caesar Cipher
 
-## Índice
+## Index
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+* [1. Background](#1-background)
+* [2. Project summary](#2-proyect-summary)
+* [3. Scope of the project](#3-scope-of-the-project)
 * [6. Hacker edition](#6-hacker-edition)
 * [7. Consideraciones técnicas](#7-consideraciones-técnicas)
 * [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
 
 ***
 
-## 1. Preámbulo
+## 1. Background
 
-Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
-es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
-César lo usaba para enviar órdenes secretas a sus generales en los campos de
-batalla.
+This is my first project in the Laboratoria Bootcamp in Perú. 
+I am very happy to be part of of the 13th tech-loving female team, we are around 50 students.
+Currently we are already moving two weeks out of the 24 weeks that will be in total.
 
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
+Since this repository is in English, I have decided to do it in this language for everyone!
 
-El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es
-un tipo de cifrado por sustitución, es decir que cada letra del texto original
-es reemplazada por otra que se encuentra un número fijo de posiciones
-(desplazamiento) más adelante en el mismo alfabeto.
 
-Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
+## 2. Project summary
 
-* La letra A se cifra como D.
-* La palabra CASA se cifra como FDVD.
-* Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-* Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+Our site is named SecureTXT. The aim of this website is to crypt and decrypt a text according to the César Encryption method with user-specified offsets of 2 to 25 characters.
+It is mainly oriented to the protection of messages of social network users, but since it is very intuitive, almost anyone can use it.
 
-En la actualidad, todos los cifrados de sustitución simple se descifran con
-mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la
-comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas
-más complejos de codificación, como el cifrado Vigenère, e incluso tiene
-aplicación en el sistema ROT13.
 
-## 2. Resumen del proyecto
+## 3. Project criteria
 
-¿Qué tengo que hacer exactamente? En este proyecto crearás una aplicación
-web que servirá para que el usuario pueda cifrar y descifrar un texto indicando
-un desplazamiento específico de caracteres (_offset_).
-
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso
-(qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. Algunas ideas de
-ejemplo:
-
-* Crear claves seguras para el email.
-* Encriptar/cifrar una tarjeta de crédito.
-* Herramienta de mensajería interna de una organización de derechos humanos en
-  una zona de conflicto.
-* Mensajería secreta para parejas.
-
-## 3. Objetivos de aprendizaje
-
-Aprenderás a construir una aplicación web que interactuará
-con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
-como tecnologías.
-
-### HTML y CSS
-
-* [ ] [Uso de HTML semántico.](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-* [ ] Uso de selectores de CSS.
-* [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
-
-### DOM
-
-* [ ] Uso de selectores del DOM.
-* [ ] Manejo de eventos del DOM.
-* [ ] [Manipulación dinámica del DOM.](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
-(appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
-
-### JavaScript
-
-* [ ] Manipulación de strings.
-* [ ] Uso de condicionales (if-else | switch | operador ternario)
-* [ ] Uso de bucles (for | for..in | for..of | while)
-* [ ] Uso de funciones (parámetros | argumentos | valor de retorno)
-* [ ] Declaración correcta de variables (const & let)
-
-### Testing
-
-* [ ] [Testeo unitario.](https://jestjs.io/docs/es-ES/getting-started)
-
-### Estructura del código y guía de estilo
-
-* [ ] Organizar y dividir el código en módulos (Modularización)
-* [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica)
-* [ ] Uso de linter (ESLINT)
-
-### Git y GitHub
-
-* [ ] Uso de comandos de git (add | commit | pull | status | push)
-* [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages)
-
-### UX
-
-* [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-* [ ] Crear prototipos para obtener feedback e iterar.
-* [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
-
-## 4. Consideraciones generales
-
-* El equipo de coaches te dará un tiempo sugerido e indicaciones sobre si trabajar
-  sola o en equipo. Recuerda que cada una aprende a diferente ritmo.
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
-  te preocupes, lo aprenderás durante este proyecto.
-
-## 5. Criterios de aceptación mínimos del proyecto
-
-Usa este alfabeto simple (solamente mayúsculas y sin ñ):
+This encryption and decryption uses only uppercase alphabet not including the ñ:
 
 * A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
-### Definición del producto
+### Product definition
 
-En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
-para definir el producto final a nivel de experiencia y de interfaz.
+The final product at the level of experience and interface:
 
-* Quiénes son los principales usuarios de producto.
-* Cuáles son los objetivos de estos usuarios en relación con tu producto.
-* Cómo crees que el producto que estás creando está resolviendo sus problemas.
+* The main users of the product are the users of social networks who are constantly communicating through text messages through chats, emails, public or private posts, among others.
+* This application is an easy tool for instant encryption and decryption of these messages, protecting the user's data sent through the networks.
 
-### Interfaz de usuario (UI)
+### User Interface (UI)
 
-La interfaz debe permitir al usuario:
+The interface allows the user to:
 
-* Elegir un desplazamiento (_offset_) indicando cuántas posiciones queremos que
-  el cifrado desplace cada caracter.
-* Insertar un mensaje (texto) que queremos cifrar.
-* Ver el resultado del mensaje cifrado.
-* Insertar un mensaje (texto) a descifrar.
-* Ver el resultado del mensaje descifrado.
+* Choose an offset indicating how many positions we want encryption moves each character in three ways:
+  * Through the input button 
+  * Through directly inserting the amount of displacement
+  * Through pressing the + or - button
+
+* Insert a message (text) that we want to encrypt with a maximum of 500 characters.
+
+* Automatically generate the encryption without the need to press any button or click for this.
+
+* As the text to be encrypted or decrypted is written you can see the result automatically.
+
+* The encryption or decryption is generated automatically as users change the offset with the + or - buttons or insert a number of offset. 
+
 
 ### Scripts / Archivos
 
@@ -155,33 +73,45 @@ Debe contener lo siguiente:
 * La imagen final de tu proyecto: (preguntar)
 
 
-
-
-
 * Investigación UX:
 
   1. Los usuarios requieren cifrado de mensajería por seguridad, considerando
   que pertenecen a una organización de derechos humanos en una zona de conflicto.
   2. Utilizando esta herramienta los usuarios protegen sus mensajes y las estrategias
   que forman parte su trabajo en la protección de los derechos humanos.
-  3. Foto del primer prototipo en papel:
 
+  3. Flujo:
+     [git](https://github.com/VeroBc/LIM013-cipher/issues/8#issue-663773913)
+
+
+
+  4. Foto del primer prototipo en papel:
+     [git](https://github.com/VeroBc/LIM013-cipher/issues/5#issue-663768051)
 
 
   
-
-
-  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+  5. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
       Feedback:
       - Ofrecer la posibilidad que el cifrado se vaya generando de manera automatica
       - Ofrecer la posibilidad de que este se muestre en una sola pagina
       - Ofrecer la posibilidad que se pueda añadir otros tipos de cifrado o descifrado
       - Ofrecer la posibilidad que sea mas flexibe en el tipo de alfabeto, espacios, mayusculas,etc.
+       Prototipo en papel luego de feedback:  
+      [git](https://github.com/VeroBc/LIM013-cipher/issues/6#issue-663768514)
 
-  5. Imagen del prototipo final:
+      
+  6. Imagen del prototipo final:
+      [git](https://github.com/VeroBc/LIM013-cipher/issues/7#issue-663768934)
 
 
 
+  7. Mockup:
+
+  [git](https://github.com/VeroBc/LIM013-cipher/issues/1#issue-663762681)
+
+  [git](https://github.com/VeroBc/LIM013-cipher/issues/2#issue-663763424)
+
+  [git](https://github.com/VeroBc/LIM013-cipher/issues/3#issue-663764130)
 
 
 
