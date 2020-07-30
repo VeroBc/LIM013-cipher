@@ -84,7 +84,7 @@ Debe contener lo siguiente:
      ![Dataflow for the application](https://user-images.githubusercontent.com/55853256/88183726-6e882c00-cbf7-11ea-9e5c-9dbdaf264ec5.jpg)
 
   4. Foto del primer prototipo en papel:
-     ![Sketch](https://user-images.githubusercontent.com/55853256/88182836-4d730b80-cbf6-11ea-91d1-5d18d7564ef5.jpg)
+     ![Sketch v1](https://user-images.githubusercontent.com/55853256/88182836-4d730b80-cbf6-11ea-91d1-5d18d7564ef5.jpg)
       
   5. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
       Feedback:
@@ -93,21 +93,21 @@ Debe contener lo siguiente:
       - Ofrecer la posibilidad que se pueda añadir otros tipos de cifrado o descifrado
       - Ofrecer la posibilidad que sea mas flexibe en el tipo de alfabeto, espacios, mayusculas,etc.
        Prototipo en papel luego de feedback:  
-      [git](https://github.com/VeroBc/LIM013-cipher/issues/6#issue-663768514)
+      [Sketch v2](https://user-images.githubusercontent.com/55853256/88182888-6085db80-cbf6-11ea-94ec-09bd7208e523.jpg)
 
       
   6. Imagen del prototipo final:
-      [git](https://github.com/VeroBc/LIM013-cipher/issues/7#issue-663768934)
+      [Final Sketch](https://user-images.githubusercontent.com/55853256/88182962-77c4c900-cbf6-11ea-90ea-23bb11c6dc8c.jpg)
 
 
 
   7. Mockup:
 
-  [git](https://github.com/VeroBc/LIM013-cipher/issues/1#issue-663762681)
+  ![Mockup 1 of 3](https://user-images.githubusercontent.com/55853256/88181993-3d0e6100-cbf5-11ea-8c2d-b8878217f31f.jpg)
 
-  [git](https://github.com/VeroBc/LIM013-cipher/issues/2#issue-663763424)
+  ![Mockup 2 of 3](https://user-images.githubusercontent.com/55853256/88182086-60391080-cbf5-11ea-9f15-e8d706239646.jpg)
 
-  [git](https://github.com/VeroBc/LIM013-cipher/issues/3#issue-663764130)
+  ![Mockup 3 of 3](https://user-images.githubusercontent.com/55853256/88182199-852d8380-cbf5-11ea-88e8-4001867b6190.jpg)
 
 
 
