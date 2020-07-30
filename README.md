@@ -81,7 +81,7 @@ Debe contener lo siguiente:
   que forman parte su trabajo en la protección de los derechos humanos.
 
   3. Flujo:
-     ![alt text](https://user-images.githubusercontent.com/55853256/88183726-6e882c00-cbf7-11ea-9e5c-9dbdaf264ec5.jpg)
+     ![Dataflow for the application](https://user-images.githubusercontent.com/55853256/88183726-6e882c00-cbf7-11ea-9e5c-9dbdaf264ec5.jpg)
 
   4. Foto del primer prototipo en papel:
      ![git](https://user-images.githubusercontent.com/55853256/88182836-4d730b80-cbf6-11ea-91d1-5d18d7564ef5.jpg)
