@@ -84,10 +84,8 @@ Debe contener lo siguiente:
      ![Dataflow for the application](https://user-images.githubusercontent.com/55853256/88183726-6e882c00-cbf7-11ea-9e5c-9dbdaf264ec5.jpg)
 
   4. Foto del primer prototipo en papel:
-     ![git](https://user-images.githubusercontent.com/55853256/88182836-4d730b80-cbf6-11ea-91d1-5d18d7564ef5.jpg)
-
-     ![git](https://drive.google.com/file/d/193GeKZa6nG8SCtg9pT-So2QoDtin36hW/view?usp=sharing)
-  
+     ![Sketch](https://user-images.githubusercontent.com/55853256/88182836-4d730b80-cbf6-11ea-91d1-5d18d7564ef5.jpg)
+      
   5. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
       Feedback:
       - Ofrecer la posibilidad que el cifrado se vaya generando de manera automatica
