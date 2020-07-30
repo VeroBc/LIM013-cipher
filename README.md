@@ -84,7 +84,7 @@ Debe contener lo siguiente:
      ![alt text](https://user-images.githubusercontent.com/55853256/88183726-6e882c00-cbf7-11ea-9e5c-9dbdaf264ec5.jpg)
 
   4. Foto del primer prototipo en papel:
-     ![git](https://github.com/VeroBc/LIM013-cipher/issues/5#issue-663768051)
+     ![git](https://user-images.githubusercontent.com/55853256/88182836-4d730b80-cbf6-11ea-91d1-5d18d7564ef5.jpg)
 
 
   
