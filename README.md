@@ -119,9 +119,7 @@ We have included blank spaces and the ThrowError.
 
 ## 6. Unit Tests
 
-![Unit tests](https://user-images.githubusercontent.com/55853256/88877297-c112ab00-d1ea-11ea-80ab-762cc1e5f698.jpg)
-
-
+![Unit tests](https://user-images.githubusercontent.com/55853256/88945383-8c870980-d253-11ea-9ae8-09570b8beb24.jpg)
 
 ## 7. How to install
 

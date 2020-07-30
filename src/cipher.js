@@ -13,15 +13,18 @@ const cipher = {
         const largo = texto_para_cifrar.length;
         let resultado = "";
 
-        //vamos a dar una vuelta por cada letra a decifrar
+        //vamos a dar una vuelta por cada letra a cifrar
         for (let i=0; i < largo; i++) {
            
             let letra_a_cifrar = texto_para_cifrar[i].toUpperCase()
+            
+            let ascii = letra_a_cifrar.charCodeAt();
+            
             if (letra_a_cifrar == " ") {
                 resultado += " ";
                 continue;
             }
-            let ascii = letra_a_cifrar.charCodeAt();
+
             if ( (ascii + desplazamiento) > limite_superior) {
                 let exceso =  (ascii + desplazamiento) - limite_superior;
                 let posicion = exceso -1;
@@ -42,16 +45,18 @@ const cipher = {
         const largo = texto_para_descifrar.length;
         let resultado = "";
 
-        //vamos a dar una vuelta por cada letra a decifrar
+        //vamos a dar una vuelta por cada letra a descifrar
         for (let i=0; i < largo; i++) {
 
             let letra_a_descifrar = texto_para_descifrar[i].toUpperCase()
+          
+            let ascii = letra_a_descifrar.charCodeAt();
+
             if (letra_a_descifrar == " ") {
                 resultado += " ";
                 continue;
             }
 
-            let ascii = letra_a_descifrar.charCodeAt();
             if ((ascii - desplazamiento) < limite_inferior) {
                 let posicion =  limite_inferior - (ascii - desplazamiento);
                 let exceso = posicion - 1;
