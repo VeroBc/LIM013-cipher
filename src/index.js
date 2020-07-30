@@ -1,8 +1,7 @@
-import decipher from './decipher.js'
 import cipher from './cipher.js'
       
-  console.log(cipher("VERONICA"));
-  console.log(decipher("KTGDCXRP", 15));
+//   console.log(cipher.encode("VERONICA"));
+//   console.log(cipher.decode("KTGDCXRP", 15));
 
   document.querySelector('#getCipherButton').addEventListener('click', getCipher);
 
@@ -24,8 +23,7 @@ import cipher from './cipher.js'
   
   document.querySelector('#endDecipherButton').addEventListener('click', clearTextareaDecipher);
   
-  debugger;
-        
+         
   function getCipher(){
 
     let leaveInicio = document.getElementById("inicio");
@@ -117,10 +115,10 @@ import cipher from './cipher.js'
   handlerOne = function(autoWriteOne) {
     autoWriteOne.preventDefault();
     let offsetNum1 = parseInt(offset1.value);
-    textareaTwo.innerHTML = cipher(textareaOne.value, offsetNum1);
+
+    textareaTwo.innerHTML = cipher.encode(textareaOne.value, offsetNum1);
   }
   textareaOne.addEventListener('keyup', handlerOne);
-
 
   // estamos escribiendo automaticamente con el desplazamiento personalizado
 
@@ -132,7 +130,7 @@ import cipher from './cipher.js'
     handlerTwo = function(autoWriteTwo) {
     autoWriteTwo.preventDefault();
     let offsetNum2 = parseInt(offset2.value);
-    textareaFour.innerHTML = cipher(textareaThree.value, offsetNum2);
+    textareaFour.innerHTML = cipher.encode(textareaThree.value, offsetNum2);
   }
   offset2.addEventListener('click', handlerTwo);
 
@@ -147,7 +145,7 @@ import cipher from './cipher.js'
     handlerThree = function(autoWriteThree) {
     autoWriteThree.preventDefault();
     let offsetNum3 = parseInt(offset3.value);
-    textareaSix.innerHTML = cipher(textareaFive.value, offsetNum3);
+    textareaSix.innerHTML = cipher.encode(textareaFive.value, offsetNum3);
   }
   document.querySelector('#incrementValueButton').addEventListener('click', handlerThree);
   
@@ -162,7 +160,7 @@ import cipher from './cipher.js'
     handlerFour = function(autoWriteFour) {
     autoWriteFour.preventDefault();
     let offsetNum4 = parseInt(offset4.value);
-    textareaEight.innerHTML = cipher(textareaSeven.value, offsetNum4);
+    textareaEight.innerHTML = cipher.encode(textareaSeven.value, offsetNum4);
   }
   document.querySelector('#decrementValueButton').addEventListener('click', handlerFour);
 
@@ -178,7 +176,7 @@ import cipher from './cipher.js'
   handlerFive = function(autoWriteFive) {
     autoWriteFive.preventDefault();
     let offsetNum5 = parseInt(offset5.value);
-    textareaTen.innerHTML = decipher(textareaNine.value, offsetNum5);
+    textareaTen.innerHTML = cipher.decode(textareaNine.value, offsetNum5);
   }
   textareaNine.addEventListener('keyup', handlerFive);
 
@@ -192,7 +190,7 @@ import cipher from './cipher.js'
     handlerSix = function(autoWriteSix) {
     autoWriteSix.preventDefault();
     let offsetNum6 = parseInt(offset6.value);
-    textareaTwelve.innerHTML = decipher(textareaEleven.value, offsetNum6);
+    textareaTwelve.innerHTML = cipher.decode(textareaEleven.value, offsetNum6);
   }
   offset6.addEventListener('click', handlerSix);
 
@@ -206,7 +204,7 @@ let handlerSeven = null;
   handlerSeven = function(autoWriteSeven) {
   autoWriteSeven.preventDefault();
   let offsetNum7 = parseInt(offset7.value);
-  textareaFourteen.innerHTML = decipher(textareaThirteen.value, offsetNum7);
+  textareaFourteen.innerHTML = cipher.decode(textareaThirteen.value, offsetNum7);
 }
 document.querySelector('#incrementValueButton2').addEventListener('click', handlerSeven);
 
@@ -221,7 +219,7 @@ let handlerEight = null;
 handlerEight = function(autoWriteEight) {
 autoWriteEight.preventDefault();
 let offsetNum8 = parseInt(offset8.value);
-textareaSixteen.innerHTML = decipher(textareaFifteen.value, offsetNum8);
+textareaSixteen.innerHTML = cipher.decode(textareaFifteen.value, offsetNum8);
   }
 document.querySelector('#decrementValueButton2').addEventListener('click', handlerEight);
 
