@@ -95,7 +95,7 @@ The interface allows the user to:
 
 ![Final Screen 1](https://user-images.githubusercontent.com/55853256/88999802-30f06680-d2bb-11ea-8ca6-56489325ff86.jpg)
 
-![Final Screen 2](https://user-images.githubusercontent.com/55853256/88999855-5c735100-d2bb-11ea-9d6d-fdc02e5b1f91.jpg)
+![Final Screen 2](https://user-images.githubusercontent.com/55853256/89000740-bf65e780-d2bd-11ea-89fb-eac8c76c2c96.jpg)
 
 ![Final Screen 3](https://user-images.githubusercontent.com/55853256/89000151-3ef2b700-d2bc-11ea-85a6-7d220bd4af37.jpg)
 
