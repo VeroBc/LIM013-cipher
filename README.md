@@ -63,12 +63,10 @@ The interface allows the user to:
 ## 4. Project Development
 
 ### Data Flow:
-![Dataflow for the application](https://user-images.githubusercontent.com/55853256/88183726-6e882c00-cbf7-11ea-9e5c-9dbdaf264ec5.jpg)
-
+![Dataflow for the application](https://user-images.githubusercontent.com/55853256/88960213-cb738a00-d268-11ea-9db3-3e69b7b3da26.jpg)
 
 ### First Sketch on paper:
-![Sketch v1](https://user-images.githubusercontent.com/55853256/88182836-4d730b80-cbf6-11ea-91d1-5d18d7564ef5.jpg)
-
+![Sketch v1](https://user-images.githubusercontent.com/55853256/88959686-ff9a7b00-d267-11ea-8de2-8ba45c1b70f4.jpg)
 
 ### Feedback received:
       - Offer the possibility that the encryption will be generated automatically.
@@ -78,37 +76,35 @@ The interface allows the user to:
 
 
 ### Sketch version 2 after feedback:  
-![Sketch v2](https://user-images.githubusercontent.com/55853256/88182888-6085db80-cbf6-11ea-94ec-09bd7208e523.jpg)
-
+![Sketch v2](https://user-images.githubusercontent.com/55853256/88959825-3bcddb80-d268-11ea-9908-3bcd9107e863.jpg)
      
 ### Final Sketch:
-![Final Sketch](https://user-images.githubusercontent.com/55853256/88182962-77c4c900-cbf6-11ea-90ea-23bb11c6dc8c.jpg)
+![Final Sketch](https://user-images.githubusercontent.com/55853256/88960018-7f284a00-d268-11ea-8fcf-c9fdbc215a1a.jpg)
 
 
 ### Mockup:
 
-![Mockup 1 of 3](https://user-images.githubusercontent.com/55853256/88181993-3d0e6100-cbf5-11ea-8c2d-b8878217f31f.jpg)
+![Mockup 1 of 3](https://user-images.githubusercontent.com/55853256/88958118-a16c9880-d265-11ea-881e-c49630b8a2e4.jpg)
 
-![Mockup 2 of 3](https://user-images.githubusercontent.com/55853256/88182086-60391080-cbf5-11ea-9f15-e8d706239646.jpg)
+![Mockup 2 of 3](https://user-images.githubusercontent.com/55853256/88959141-26a47d00-d267-11ea-897a-22c391a41c6a.jpg)
 
-![Mockup 3 of 3](https://user-images.githubusercontent.com/55853256/88182199-852d8380-cbf5-11ea-88e8-4001867b6190.jpg)
-
+![Mockup 3 of 3)](https://user-images.githubusercontent.com/55853256/88959331-6d927280-d267-11ea-9a3d-4496f6668c8a.jpg)
 
 ### Final Images:
 
 
-![Final Screen 1](https://user-images.githubusercontent.com/55853256/88878565-db01bd00-d1ed-11ea-8a72-319b28cae3d5.jpg)
+![Final Screen 1](https://user-images.githubusercontent.com/55853256/88999802-30f06680-d2bb-11ea-8ca6-56489325ff86.jpg)
 
-![Final Screen 2](https://user-images.githubusercontent.com/55853256/88878616-f2d94100-d1ed-11ea-805b-258f349efe4e.jpg)
+![Final Screen 2](https://user-images.githubusercontent.com/55853256/88999855-5c735100-d2bb-11ea-9d6d-fdc02e5b1f91.jpg)
 
-![Final Screen 3](https://user-images.githubusercontent.com/55853256/88878650-01bff380-d1ee-11ea-9e81-a4f5c92d79bf.jpg)
+![Final Screen 3](https://user-images.githubusercontent.com/55853256/89000151-3ef2b700-d2bc-11ea-85a6-7d220bd4af37.jpg)
 
 
-![Final Screen 1(responsive)](https://user-images.githubusercontent.com/55853256/88878705-1a300e00-d1ee-11ea-9bda-60e0bf159c3a.jpg)
+![Final Screen 1(responsive)](https://user-images.githubusercontent.com/55853256/89000256-8d07ba80-d2bc-11ea-846e-33e0469bfd4c.jpg)
 
-![Final Screen 2 (responsive)](https://user-images.githubusercontent.com/55853256/88878728-25833980-d1ee-11ea-870a-b74be72a49a5.jpg)
+![Final Screen 2 (responsive)](https://user-images.githubusercontent.com/55853256/89000301-a7419880-d2bc-11ea-821c-6c9d3442eb42.jpg)
 
-![Final Screen 3 (responsive)](https://user-images.githubusercontent.com/55853256/88878802-4fd4f700-d1ee-11ea-94ca-c93d180e2491.jpg)
+![Final Screen 3 (responsive)](https://user-images.githubusercontent.com/55853256/89000341-bfb1b300-d2bc-11ea-86ec-5402efe86776.jpg)
 
 
 
